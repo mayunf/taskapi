@@ -1,0 +1,23 @@
+{
+    "name": "mayunfeng/taskapi",
+    "require": {
+        "mayunfeng/supports": "^1.0",
+        "pimple/pimple": "^3.2",
+        "symfony/http-foundation": "^3.4",
+        "php": ">=7.0.0",
+        "monolog/monolog": "^1.24",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "马运锋",
+            "email": "mayunfeng@jwsem.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TaskAPI\\": "src/"
+        }
+    }
+}
