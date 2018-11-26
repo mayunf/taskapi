@@ -2,11 +2,11 @@
     "name": "mayunfeng/taskapi",
     "require": {
         "mayunfeng/supports": "^1.0",
-        "pimple/pimple": "^3.2",
-        "symfony/http-foundation": "^3.4",
+        "pimple/pimple": "^3.0",
+        "symfony/http-foundation": "^3.0",
         "php": ">=7.0.0",
-        "monolog/monolog": "^1.24",
-        "guzzlehttp/guzzle": "^6.3"
+        "monolog/monolog": "^1.0",
+        "guzzlehttp/guzzle": "^6.0"
     },
     "license": "MIT",
     "authors": [
