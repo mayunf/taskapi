@@ -15,8 +15,7 @@ use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Pimple\Container;
 use Symfony\Component\HttpFoundation\Request;
-use TaskAPI\Core\Log;
-
+use Mayunfeng\Supports\Log;
 /**
  * Class Application
  *
@@ -69,9 +68,7 @@ class Application extends Container
         }
     }
 
-    /**
-     * @throws \Exception
-     */
+
     private function initializeLogger()
     {
         if (Log::hasLogger()) {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6bee029b90510f731cc63ba0c5dbb29",
+    "content-hash": "c13c10f163df227b414555ab9f3ad6ec",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -189,20 +189,25 @@
         },
         {
             "name": "mayunfeng/supports",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mayunfeng0614/supports.git",
-                "reference": "721edd08e8dd6d8183e1a108deb4751b26d113c4"
+                "url": "https://github.com/mayunf/supports.git",
+                "reference": "721eb072b56bc3fe73e88a6eaa8f86c70e1ffb48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mayunfeng0614/supports/zipball/721edd08e8dd6d8183e1a108deb4751b26d113c4",
-                "reference": "721edd08e8dd6d8183e1a108deb4751b26d113c4",
+                "url": "https://api.github.com/repos/mayunf/supports/zipball/721eb072b56bc3fe73e88a6eaa8f86c70e1ffb48",
+                "reference": "721eb072b56bc3fe73e88a6eaa8f86c70e1ffb48",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.3",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^6.0",
+                "monolog/monolog": "^1.23",
                 "php": ">=5.5"
             },
             "type": "library",
@@ -230,7 +235,7 @@
                 "http",
                 "support"
             ],
-            "time": "2018-03-29T03:52:42+00:00"
+            "time": "2018-11-27T03:18:23+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -553,16 +558,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.18",
+            "version": "v3.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5aea7a86ca3203dd7a257e765b4b9c9cfd01c6c0"
+                "reference": "ea61dd57c4399b0b2a4162e1820cd9d0783acd38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5aea7a86ca3203dd7a257e765b4b9c9cfd01c6c0",
-                "reference": "5aea7a86ca3203dd7a257e765b4b9c9cfd01c6c0",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ea61dd57c4399b0b2a4162e1820cd9d0783acd38",
+                "reference": "ea61dd57c4399b0b2a4162e1820cd9d0783acd38",
                 "shasum": ""
             },
             "require": {
@@ -603,7 +608,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-31T08:57:11+00:00"
+            "time": "2018-11-26T10:17:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -731,7 +736,9 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*"
     },
     "platform-dev": []
 }

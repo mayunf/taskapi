@@ -12,6 +12,8 @@ use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\HandlerStack;
 use Psr\Http\Message\ResponseInterface;
 use TaskAPI\Core\Exceptions\HttpException;
+use Mayunfeng\Supports\Log;
+
 class Http
 {
     /**
